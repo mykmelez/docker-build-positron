@@ -1,4 +1,4 @@
-This is a [Docker](https://www.docker.com/) image to build [Positron](https://github.com/mozilla/positron) in continuous integration via the [TaskCluster](https://docs.taskcluster.net/) continuous integration service.
+This is a [Docker](https://www.docker.com/) image to build [Positron](https://github.com/mozilla/positron) in continuous integration via the [TaskCluster](https://docs.taskcluster.net/) continuous integration service. It's an [automated build](https://docs.docker.com/docker-hub/builds/) available via a [Docker Hub listing](https://hub.docker.com/r/mykmelez/docker-build-positron/) and `docker pull mykmelez/docker-build-positron`.
 
 It starts with Ubuntu 14.04 (Trusty), adds build prerequisites (as determined by Mozilla's bootstrap.py script), and includes [taskcluster-vcs](https://www.npmjs.com/package/taskcluster-vcs) (which uses a cache of [gecko-dev](https://github.com/mozilla/gecko-dev) to reduce the load on GitHub when fetching changes).
 
