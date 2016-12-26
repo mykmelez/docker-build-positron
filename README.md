@@ -7,7 +7,7 @@ The Positron repo triggers TaskCluster builds via [.taskcluster.yml](https://git
 ```bash
 docker pull mykmelez/docker-build-positron
 docker run -it mykmelez/docker-build-positron /bin/bash
-git clone https://github.com/mozilla/positron
+git clone --recursive https://github.com/mozilla/positron
 cd positron
 ./mach build
 ```
