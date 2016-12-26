@@ -9,5 +9,5 @@ docker pull mykmelez/docker-build-positron
 docker run -it mykmelez/docker-build-positron /bin/bash
 git clone https://github.com/mozilla/positron
 cd positron
-SHELL=/bin/bash ./mach build
+./mach build
 ```
